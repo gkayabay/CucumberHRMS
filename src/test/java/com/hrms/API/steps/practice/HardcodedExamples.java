@@ -79,8 +79,8 @@ public class HardcodedExamples {
 		 * Verifying response status code is 200
 		 */
 		getOneEmployeeResponse.then().assertThat().statusCode(200);
-	}
-
+	}    
+   
 	@Test
 	public void aPOSTcreateEmployee() {
 		/**
