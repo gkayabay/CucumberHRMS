@@ -1,0 +1,247 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "I create connection with SyntaxHrms database",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "I create a statement",
+            "match": {},
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-24T01:36:12.269Z",
+        "line": 7,
+        "name": "Job Title Validation for SyntaxHrms Database",
+        "description": "",
+        "id": "syntaxhrms-database-testing;job-title-validation-for-syntaxhrms-database",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "I retrieve all job tittles from database",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "I validate results for Job Titles",
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "job_title"
+                ]
+              },
+              {
+                "cells": [
+                  "Cloud Architect"
+                ]
+              },
+              {
+                "cells": [
+                  "Cloud Consultant"
+                ]
+              },
+              {
+                "cells": [
+                  "Cloud Product and Project Manager"
+                ]
+              },
+              {
+                "cells": [
+                  "IT Analyst"
+                ]
+              },
+              {
+                "cells": [
+                  "Network Administrator"
+                ]
+              },
+              {
+                "cells": [
+                  "IT Support Manager"
+                ]
+              },
+              {
+                "cells": [
+                  "Data Quality Manager"
+                ]
+              },
+              {
+                "cells": [
+                  "Database Administrator"
+                ]
+              },
+              {
+                "cells": [
+                  "Application Developer"
+                ]
+              },
+              {
+                "cells": [
+                  "Developer"
+                ]
+              },
+              {
+                "cells": [
+                  "Accountant"
+                ]
+              },
+              {
+                "cells": [
+                  "Chief Financial Officer"
+                ]
+              },
+              {
+                "cells": [
+                  "Controller"
+                ]
+              },
+              {
+                "cells": [
+                  "Production Manager"
+                ]
+              },
+              {
+                "cells": [
+                  "Jr Production Manager"
+                ]
+              },
+              {
+                "cells": [
+                  "Sales\u0026Marketing Manager"
+                ]
+              },
+              {
+                "cells": [
+                  "Jr Sales Manager"
+                ]
+              },
+              {
+                "cells": [
+                  "Graphic Designer"
+                ]
+              },
+              {
+                "cells": [
+                  "Pilot"
+                ]
+              },
+              {
+                "cells": [
+                  "Machine technician"
+                ]
+              },
+              {
+                "cells": [
+                  "Bakery Chef"
+                ]
+              },
+              {
+                "cells": [
+                  "QA Tester"
+                ]
+              },
+              {
+                "cells": [
+                  "Quality Assurance Tester"
+                ]
+              },
+              {
+                "cells": [
+                  "Freelancer"
+                ]
+              },
+              {
+                "cells": [
+                  "ttttt"
+                ]
+              },
+              {
+                "cells": [
+                  "dsd"
+                ]
+              },
+              {
+                "cells": [
+                  "Automation engineer"
+                ]
+              },
+              {
+                "cells": [
+                  "Film Director"
+                ]
+              },
+              {
+                "cells": [
+                  "CEO"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 40,
+            "name": "I close all connections",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@dbTesting"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "SyntaxHrms database testing",
+    "description": "",
+    "id": "syntaxhrms-database-testing",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Database.feature",
+    "tags": [
+      {
+        "name": "@dbTesting",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

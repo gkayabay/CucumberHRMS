@@ -15,7 +15,7 @@ package com.hrms.runners;
 						// if set to true no actual execution will happen
 			monochrome = true
 			,strict=true
-			,tags= "@reporting"
+			,tags= "@smoke"
 			,plugin= {
 					"pretty",//prints gherkin steps in console
 					"html:target/cucumber-default-report",//create basic html report in specified location
